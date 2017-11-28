@@ -1,25 +1,24 @@
 # Site settings
 title: Vaseem Ahmed
-url: "www.vaseemahmed.com"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+url: http://vaseemahmed.com    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 #timezone: Asia/Chongqing
-description: >
-  One or more sentences introducing this blog.
+description: Sample personel application
 
 # Your information
 email: vaseem.ahmed01@rediff.com
 author: Vaseem Ahmed
 avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
-profile: One sentence introducing yourself.
+profile: A java developer
 #twitter_username: twitter_username
-#github_username:  github_username
+github_username:  https://github.com/vaseemahmed01
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
-#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+disqus_shortname: vaseemahmed.com   # get one: https://disqus.com/admin/signup/
 #duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
-permalink: /archivers/:title
+permalink: "/:categories/:year/:month/:day/:title/"
 gems:
  - jekyll-paginate
  - jekyll-gist
